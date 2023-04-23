@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* cores usadas no prototipo figma guardada em variaveis */
+:root {
+  --green: #95eba8;
+  --grey: rgba(167, 167, 167, 1);
+  --darkGrey: rgba(255, 255, 255, 0.06);
+  --yellow: rgba(255, 231, 19, 1);
+}
+
 body {
-  background-color: red;
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Fira Code';
+  color: white;
+}
+.container {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  color: var(--green);
+}
+
+main {
+  background: var(--darkGrey);
+  border-radius: 20px;
+  height: 580px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+input,
+button {
+  padding: 0 12px;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+}
+
+input {
+  background: var(--darkGrey);
+}
+button {
+  background: var(--green);
+  color: black;
 }
