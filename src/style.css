@@ -1,73 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
-
-/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* cores usadas no prototipo figma guardada em variaveis */
-:root {
-  --green: #95eba8;
-  --grey: rgba(167, 167, 167, 1);
-  --darkGrey: rgba(255, 255, 255, 0.06);
-  --yellow: rgba(255, 231, 19, 1);
-}
-
 body {
-  background-image: url('img/bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Fira Code';
+  background-color: #282C33;
   color: white;
-}
-.container {
-  height: 100vh;
-  margin: 0 auto;
 }
 
 h1 {
-  font-size: 3.7rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-h1 span {
-  color: var(--green);
-}
-
-main {
-  background: var(--darkGrey);
-  border-radius: 20px;
-  height: 580px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-form {
-  margin-bottom: 1rem;
-}
-
-label {
-  margin-bottom: 0.5rem;
+  position: absolute;
+  width: 517px;
+  height: 74px;
+  left: 306px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 79px;
   color: white;
 }
 
-input,
-button {
-  padding: 0 12px;
-  height: 48px;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  outline: none;
-  border: none;
+h1 span {
+  color: #96EB95;
+}
+
+.digite {
+  color: #FFFFFF;
+  position: absolute;
+  width: 111px;
+  height: 15px;
+  left: 307px;
+  top: 100px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 input {
-  background: var(--darkGrey);
+  position: absolute;
+  width: 171px;
+  height: 48px;
+  left: 306px;
+  top: 120px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 15px;
 }
-button {
-  background: var(--green);
-  color: black;
+
+.search {
+  position: absolute;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #373737;
+  width: 171px;
+  height: 48px;
+  left: 491px;
+  top: 120px;
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+}
+
+div {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#moeda {
+  color: #FFFFFF;
+}
+div > span {
+  font-size: 16px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FFE713;
+}
+
+.type-value {
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.big-section {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 650px;
+  left: 306px;
+  top: 190px;
+  background: rgba(255, 255, 255, 0.06);
+  position: absolute;
+  border-radius: 20px;
+}
+
+section {
+  gap: 2%;
+  width: 850px;
+  height: 683px;
+  left: 306px;
+  top: 290px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  margin-top: 5%;
+  overflow-y: scroll;
+  padding: 30px;
+}
+
+.div-coins {
+  gap: 5%;
+  width: 130px;
+  height: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Estilo para o track da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #888;
+}
+
+/* Estilo para o thumb da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #373737;
+  border-radius: 5px;
 }
