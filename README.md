@@ -10,7 +10,7 @@ Exchange House é um website de câmbio de moedas. Ele foi desenvolvido com o ob
 O usuário pode escolher as moedas de origem e destino, informar o valor que deseja converter e obter o resultado imediatamente. O site usa a API do Exchange Rates API para obter as taxas de câmbio mais recentes.
 
 # Como executar o projeto?
-O Exchange House está hospedado no GitHub Pages, então você pode acessá-lo diretamente no aqui <a href='https://guilhermegattimarinho.github.io/exchange-house/'> Casa de Câmbio 💵 </a>.
+O Exchange House está hospedado no GitHub Pages, então você pode acessá-lo diretamente aqui <a href='https://guilhermegattimarinho.github.io/exchange-house/'> Casa de Câmbio 💵 </a>.
 
 Se preferir, você também pode baixar o repositório e abrir o arquivo index.html no seu navegador.
 
